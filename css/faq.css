@@ -1,0 +1,97 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Header */
+.faq-header {
+  background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+  color: #ffffff;
+}
+
+/* FAQ Section */
+.faq-section {
+  background-color: #f8f9fa;
+}
+
+/* Accordion Styling */
+.accordion-item {
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.accordion-button {
+  font-weight: 600;
+  padding: 18px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e7f1ff;
+  color: #0d6efd;
+}
+
+.accordion-body {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Ask Question Section */
+.ask-question-section {
+  background-color: #ffffff;
+}
+
+.ask-box {
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.ask-box h2 {
+  color: #0d6efd;
+}
+
+#formMessage {
+  font-weight: 500;
+}
+#suggestedAnswer {
+  background: #e7f1ff;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #0d6efd;
+}
+#suggestBtn{
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+/* Public Q&A Section */
+.public-qa-section {
+  background-color: #f8f9fa;
+}
+
+.qa-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  height: 100%;
+}
+
+.qa-question {
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+.qa-answer {
+  margin-top: 10px;
+  color: #555;
+}
+
+.qa-meta {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 15px;
+}
