@@ -43,6 +43,10 @@ body {
 /* =========================================================
    NAVBAR (BOOTSTRAP SAFE)
 ========================================================= */
+.togl-btn{
+  border: 1px solid var(--border);
+   filter: invert(1);
+}
 .custom-navbar {
   background: var(--bg);
   border-bottom: 2px solid var(--border);
