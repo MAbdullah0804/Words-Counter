@@ -44,8 +44,8 @@ body {
    NAVBAR (BOOTSTRAP SAFE)
 ========================================================= */
 .togl-btn{
-  border: 1px solid var(--border);
-   filter: invert(1);
+  background-color: var(--border);
+  color: var(--accent);
 }
 .custom-navbar {
   background: var(--bg);
